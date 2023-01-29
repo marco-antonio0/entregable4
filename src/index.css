@@ -1,0 +1,78 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    /* text-align: center; */
+    box-sizing: border-box;
+    background: rgba(237, 40, 255, 0.658);
+  }
+  
+  .App {
+    padding: 30px;
+    display: flex;
+  }
+
+  form {
+    background: white;
+    width: 45%;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-right: 40px;
+    height: 100%;
+  }
+
+  .input-container {
+    margin-bottom: 10px;
+    background: white;
+  }
+  .input-container label{
+    background: white;
+  }
+
+  .input-container input {
+    display: block;
+    padding: 8px 10px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background: white;
+  }
+
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: silver;;
+  }
+
+  form button {
+    background: silver;;
+  }
+
+  .user-list{
+    list-style: none;
+    display: block;
+    padding: 10px 15px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid silver;
+    background: white;
+  }
+  .user-list-li{
+    list-style: none;
+    background: white;
+    padding: 0;
+  }
+  .user-list-li li{
+    margin: 5px;
+    background: white;
+}
+.user-list-name{
+    background: white;
+    margin: 5px;
+}
+.user-list-li b{
+    background: white;
+}
